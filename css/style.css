@@ -5,7 +5,7 @@
 }
 
 img, .a{
-    height: 300px;
+    height: 150px;
     display: block;
     margin:0 auto;
 }
@@ -25,6 +25,22 @@ header{
 
 #perfil{
     margin-bottom:20px;
+    background-color: #4DBADB;
+}
+
+#projetos{
+    background-color: #4A67D3;
+    margin-bottom: 20px;
+}
+
+div#certificados{
+    margin-bottom: 20px;
+    /* background-color: aquamarine; */
+}
+
+#contato{
+    background-color: #243163;
+    padding-bottom: 20px;
 }
 
 footer{
@@ -35,4 +51,23 @@ footer{
 footer p{
     margin-top: 10px;
     width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-top: 4px;
+    list-style: none;
+}
+li{
+    border: 2px solid #d8d8d8;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 4px;
+    display: block;
+    padding: 7px 12px;
+    text-decoration: none;
 }
