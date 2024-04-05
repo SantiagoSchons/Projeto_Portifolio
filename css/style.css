@@ -3,6 +3,14 @@
     padding: 0;
     font-family: 'Orelo-sw-bi', serif;
 }
+body{
+    background-color: #080808;
+}
+
+a{
+    color: #9C9C9C !important;
+}
+
 
 img, .a{
     height: 150px;
@@ -25,6 +33,7 @@ header{
 
 #perfil{
     margin-bottom:20px;
+    color: #9C9C9C;
 }
 
 #projetos{
@@ -34,10 +43,24 @@ header{
 div#certificados{
     margin-bottom: 20px;
     /* background-color: aquamarine; */
+
+}
+
+div#certificados h2{
+    margin-bottom: 28px;
+    color: #ffffff;
+}
+
+div#certificados h5{
+    color: #9C9C9C;
+}
+div#certificados a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #contato{
-    padding-bottom: 20px;
+    color: #ffffff;
 }
 
 ul{
@@ -57,4 +80,14 @@ li{
     display: block;
     padding: 7px 12px;
     text-decoration: none;
+}
+#perfil p{
+    margin-top: 30px;
+    text-align: left;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #3F8E00 !important;
+    /* box-shadow: 0 0 25px 0.1px #62BA1B; */
 }
