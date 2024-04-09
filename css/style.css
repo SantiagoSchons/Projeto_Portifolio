@@ -91,3 +91,7 @@ button{
     background-color: #3F8E00 !important;
     /* box-shadow: 0 0 25px 0.1px #62BA1B; */
 }
+
+label {
+    padding: 8px 0;
+}
